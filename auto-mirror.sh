@@ -14,7 +14,7 @@ do
 		cmd="cd $GIT_LOCAL_PATH/$repo && git fetch"
 	else
 		echo "clone $repo ..."
-		cmd="cd $GIT_LOCAL_PATH && git clone --mirror $GIT_URL:/home/git/$repo"
+		cmd="cd $GIT_LOCAL_PATH && git clone --mirror $GIT_URL/home/git/$repo"
 	fi
 	
 	echo $cmd
